@@ -1,1 +1,58 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #535c91;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .medsos {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+  }
+  
+  .medsos ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .medsos ul li {
+    margin-right: 10px;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
