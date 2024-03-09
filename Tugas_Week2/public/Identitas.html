@@ -4,12 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Identitas</title>
-    <style>img {
+    <style>
+    img {
       border-radius: 50%;
       margin-top: 20px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
 
-      .custom-button {
+    body {
+        font-family: "Arial", sans-serif;
+        background-color: #31363F;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+      }
+    .custom-button {
         display: inline-block;
         padding: 15px 30px;
         font-size: 18px;
@@ -17,16 +25,28 @@
         text-decoration: none;
         cursor: pointer;
         border-radius: 8px;
-        background-color: #aa34ff;
-        color: #fff;
-        border: 2px solid #aa34ff;
-        transition: background-color 0.3s;
+        background-color: #EEEEEE;
+        color: #000000;
+        border: 2px solid #EEEEEE;
+        transition: background-color 0.3s;}
+  
+    .custom-button:hover {
+        background-color: #eeeeeec3;
+        border-color: #eeeeeec3;
     }
 
-    .custom-button:hover {
-        background-color: #8e2bd5;
-        border-color: #aa34ff;
-    }
+    td {
+        border: 1px solid #9BB0C1;
+        padding: 10px;
+        text-align: left;
+        color: #fefffe;
+      }
+
+      th {
+        background-color: #9BB0C1;
+        color: white;
+      }
+
   </style>
 </head>
 <body>
@@ -47,7 +67,7 @@
 
 
     <h2>Pengalaman</h2>
-    <table border="1">
+    <table>
         <tr>
             <th>Pengalaman</th>
             <th>Waktu</th>
@@ -64,5 +84,3 @@
 
 </body>
 </html>
-
-
